@@ -1,9 +1,9 @@
 function addUser() {
-    p1n = document.getElementById("p1ni").value
-    p2n = document.getElementById("p2ni").value
+    player1_name = document.getElementById("player1_name").value
+    player2_name = document.getElementById("player2_name").value
 
-    localStorage.setItem("p1n", p1n)
-    localStorage.setItem("p2n", p2n)
+    localStorage.setItem("player1_name", player1_name)
+    localStorage.setItem("player2_name", player2_name)
 
     window.location = "game.html"
 }
